@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>edit header</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+
+      .cancel-icon span {
+        font-size: 30px;
+        color: white;
+      }
+
+      /* .navbar-brand img { */
+        /* border-radius: 50%; */
+        /* height: 100px; */
+        /* left: 20%; */
+        /* Adjust height as needed */
+      /* } */
+
+      .custom-navbar {
+        background-color: rgb(34, 34, 34);
+        /* Blue color */
+      }
+
+      .navbar-nav .nav-item .nav-link {
+        font-weight: bold;
+        position: relative;
+        color: white;
+        /* White text color */
+        text-decoration: none;
+        overflow: hidden; /* Ensure text overflow hides properly */
+        transition: transform 0.3s; /* Smooth transition for zoom effect */
+        margin-right: 25px;
+      }
+
+      .navbar-nav .nav-item .nav-link::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 10px;
+        width: 100%;
+        height: 1px;
+        background-color: transparent; /* Remove underline */
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+
+      .navbar-nav .nav-item:hover .nav-link {
+        transform: scale(1.1); /* Zoom effect on hover */
+        color:rgb(214, 7, 162);
+      }
+
+      .navbar-toggler:focus {
+        outline: none;
+        /* Remove focus outline on hamburger icon */
+      }
+
+    /* .logo{
+        color:white;
+    } */
+   ul li{
+        list-style-type:none;
+    }
+    ul li img{
+      margin-left: 20px;
+    }
+    .ss{
+      
+text-align: center;
+text-decoration: none;
+color: rgb(255, 255, 255);
+       }
+       .ss h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        left: 10px;
+       }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="images/logol.png"
+      type="image/x-icon"
+    />
+ 
+  </head>
+
+  <body>
+    <div>
+      <div>
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+<div class="logo">
+  <span class="ss"><h1><b>I</b>mpact-<b>N</b>ews</h1> </span>
+  
+
+
+
+ </ul>
+ 
+      
+</div>
+     
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto   ">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">Home <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+              </svg></a>
+          </li>
+          <li class="nav-item dropdown">
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">News</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="about-us.php">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.php">Contact us</a>
+          </li>
+          <li class="nav-item">
+            
+            <a class="nav-link" href="admin/">Admin <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-lock" viewBox="0 0 16 16">
+                <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5v-1a2 2 0 0 1 .01-.2 4.49 4.49 0 0 1 1.534-3.693Q8.844 9.002 8 9c-5 0-6 3-6 4m7 0a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"/>
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+  </div>
+  </div>
+  <!-- <div>
+    <img src="Logol.png" alt="newa">
+  </div> -->
+   
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Toggle between navbar-toggler and cancel-icon
+        $(".navbar-toggler").click(function () {
+          $(".cancel-icon").toggle();
+          $(".navbar-toggler-icon").toggleClass("d-none");
+          $(".navbar-brand img").toggleClass("logo-circle");
+        });
+
+        // Hide navbar on nav link click and reset toggler icon
+        $(".navbar-nav>li>a").on("click", function () {
+          $(".cancel-icon").hide();
+          $(".navbar-toggler-icon").removeClass("d-none");
+          $(".navbar-brand img").removeClass("logo-circle");
+        });
+
+        // Hide navbar on cancel icon click and reset toggler icon
+        $(".cancel-icon").click(function () {
+          $(".navbar-collapse").collapse("hide");
+          $(this).hide();
+          $(".navbar-toggler-icon").removeClass("d-none");
+          $(".navbar-brand img").removeClass("logo-circle");
+        });
+
+        // Prevent dropdown from closing on click inside
+        $(".dropdown-menu").on("click", function (e) {
+          e.stopPropagation();
+        });
+
+        // Close dropdown on click outside
+        $(document).on("click", function (e) {
+          if (!$(e.target).closest(".dropdown-menu").length) {
+            $(".dropdown-menu").slideUp();
+          }
+        });
+
+        // Make sure the dropdown stays open when clicked on mobile
+        $(".dropdown-toggle").on("click", function (e) {
+          var $dropdownMenu = $(this).next(".dropdown-menu");
+          if ($dropdownMenu.is(":visible")) {
+            $dropdownMenu.slideUp();
+          } else {
+            $(".dropdown-menu").slideUp(); // close other dropdowns
+            $dropdownMenu.slideDown();
+          }
+          e.stopPropagation();
+        });
+      });
+    </script>
+  </body>
+</html>

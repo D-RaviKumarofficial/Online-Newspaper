@@ -1,0 +1,19 @@
+
+/* .section{
+    font-size: 15px;
+} */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #a33030;
+}
+.h-custom {
+  height: calc(100% - 75px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
